@@ -2,14 +2,15 @@
 
 declare(strict_types=1);
 /**
- * This file is part of Hyperf.
+ * You know, for fast.
  *
- * @link     https://www.hyperf.io
- * @document https://hyperf.wiki
- * @contact  group@hyperf.io
- * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
+ * @link     https://ctl.pub
+ * @document https://doc.ctl.pub
  */
 namespace HyperfTest\Cases;
+
+use Fourli\ApiDriver\Codes;
+use Hyperf\Utils\Context;
 
 /**
  * @internal
@@ -19,6 +20,11 @@ class ExampleTest extends AbstractTestCase
 {
     public function testExample()
     {
-        $this->assertTrue(true);
+
+        $codes = make(Codes::class);
+
+        $res = $codes->test();
+
+        $this->assertTrue($res);
     }
 }
