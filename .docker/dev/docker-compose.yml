@@ -1,0 +1,19 @@
+version: '2.0'
+
+services:
+  app:
+    image: fourli/hyperf:7.4-dev
+    container_name: api-driver-dev
+    ports:
+      - 8111:9501
+#    restart: always
+    volumes:
+      - $PWD/../../:/data
+      - $PWD/php.ini:/etc/php7/php.ini
+    working_dir: /data
+    networks:
+      - share_net
+
+networks:
+  share_net:
+    external: true
