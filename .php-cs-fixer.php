@@ -3,8 +3,8 @@
 $header = <<<'EOF'
 You know, for fast.
 
-@link     https://ctl.pub
-@document https://doc.ctl.pub
+@link     https://www.open.ctl.pub
+@document https://doc.open.ctl.pub
 EOF;
 
 return (new PhpCsFixer\Config())
