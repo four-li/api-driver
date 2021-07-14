@@ -1,8 +1,12 @@
 <?php
+
 declare(strict_types=1);
-
-// date: 2021/7/13 author: four-li
-
+/**
+ * You know, for fast.
+ *
+ * @link     https://www.open.ctl.pub
+ * @document https://doc.open.ctl.pub
+ */
 namespace Fourli\ApiDriver\Command;
 
 use Hyperf\Command\Command as HyperfCommand;

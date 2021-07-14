@@ -4,9 +4,10 @@
     "license": "MIT",
     "keywords": [
         "php",
-        "hyperf"
+        "four-li",
+        "fourli"
     ],
-    "description": "",
+    "description": "基于hyperf框架的 api项目驱动",
     "autoload": {
         "psr-4": {
             "Fourli\\ApiDriver\\": "src/"
