@@ -7,7 +7,7 @@ declare(strict_types=1);
  * @link     https://www.open.ctl.pub
  * @document https://doc.open.ctl.pub
  */
-namespace Fourli\ApiDriver\Command;
+namespace FourLi\ApiDriver\Command;
 
 use Hyperf\Command\Command as HyperfCommand;
 use Psr\Container\ContainerInterface;
