@@ -7,9 +7,9 @@ declare(strict_types=1);
  * @link     https://www.open.ctl.pub
  * @document https://doc.open.ctl.pub
  */
-namespace Fourli\ApiDriver;
+namespace FourLi\ApiDriver;
 
-use Fourli\ApiDriver\Command\RouterCommand;
+use FourLi\ApiDriver\Command\RouterCommand;
 
 class ConfigProvider
 {

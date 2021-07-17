@@ -7,12 +7,8 @@ declare(strict_types=1);
  * @link     https://www.open.ctl.pub
  * @document https://doc.open.ctl.pub
  */
-namespace FourLi\ApiDriver;
-
-class Codes
-{
-    public function test()
-    {
-        return true;
-    }
-}
+return [
+    'default' => [
+        '_'
+    ],
+];

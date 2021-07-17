@@ -9,7 +9,7 @@ declare(strict_types=1);
  */
 namespace HyperfTest\Cases;
 
-use Fourli\ApiDriver\Codes;
+use FourLi\ApiDriver\Codes;
 
 /**
  * @internal

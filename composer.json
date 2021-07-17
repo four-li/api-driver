@@ -10,7 +10,7 @@
     "description": "基于hyperf框架的 api项目驱动",
     "autoload": {
         "psr-4": {
-            "Fourli\\ApiDriver\\": "src/"
+            "FourLi\\ApiDriver\\": "src/"
         }
     },
     "autoload-dev": {
@@ -20,7 +20,6 @@
     },
     "require": {
         "php": ">=7.3",
-        "hyperf/command": "^2.1",
         "hyperf/di": "2.1.*",
         "hyperf/framework": "2.1.*"
     },
@@ -46,7 +45,7 @@
     },
     "extra": {
         "hyperf": {
-            "config": "Fourli\\ApiDriver\\ConfigProvider"
+            "config": "FourLi\\ApiDriver\\ConfigProvider"
         }
     }
 }
