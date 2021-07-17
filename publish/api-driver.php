@@ -8,7 +8,5 @@ declare(strict_types=1);
  * @document https://doc.open.ctl.pub
  */
 return [
-    'default' => [
-        '_',
-    ],
+    'default' => [],
 ];
